@@ -12,20 +12,20 @@ Exam Portal In Django
 # git clone https://github.com/lakshita2000/exam-portal.git
 # cd Exam-Portal
 # Now we will need a .env file for storing email credentials
-   create .env in the Exam-Portal directory
-   Contents of .env file
-   export EMAIL_HOST_PASSWORD=<PASSWORD_OF_EMAIL_ACCOUNT>
-   export EMAIL_HOST_USER=<EMAIL_ACCOUNT>
-   export EMAIL_HOST=<SMTP>
-export DEFAULT_FROM_EMAIL=<EMAIL_ACCOUNT>
+  # create .env in the Exam-Portal directory
+   # Contents of .env file
+   # export EMAIL_HOST_PASSWORD=<PASSWORD_OF_EMAIL_ACCOUNT>
+   # export EMAIL_HOST_USER=<EMAIL_ACCOUNT>
+   # export EMAIL_HOST=<SMTP>
+# export DEFAULT_FROM_EMAIL=<EMAIL_ACCOUNT>
 If on Windows
-Create a env.bat file with following contents
+# Create a env.bat file with following contents
 set EMAIL_HOST_PASSWORD=<PASSWORD_OF_EMAIL_ACCOUNT>
 set EMAIL_HOST_USER=<EMAIL_ACCOUNT>
 set EMAIL_HOST=<SMTP>
 set DEFAULT_FROM_EMAIL=<EMAIL_ACCOUNT>
 After creating env file, run following commands:-
-pip install pipenv
+#  pip install pipenv
 pip install django[argon2]
 pipenv shell
 pipenv install
