@@ -3,15 +3,15 @@ Exam Portal In Django
 # Live Website -> https://exam-portal-django.herokuapp.com/
 # Please Note: On live website users cannot create professor accounts
 # Main Features:
-Auto Submit Form as soon as timer runs out
-If student window goes out of focus for 5 times while appearing for an exam professor will receive an email
-Automatic calculation of marks once student submits Exam
-To run this project follow the instructions given below:
-Please Note: Python 3.8.2 is needed to run this project
-First Clone the project
-git clone https://github.com/rishank-shah/Exam-Portal.git
-cd Exam-Portal
-Now we will need a .env file for storing email credentials
+# Auto Submit Form as soon as timer runs out
+# If student window goes out of focus for 5 times while appearing for an exam professor will receive an email
+# Automatic calculation of marks once student submits Exam
+# To run this project follow the instructions given below:
+# Please Note: Python 3.8.2 is needed to run this project
+# First Clone the project
+# git clone https://github.com/lakshita2000/exam-portal.git
+# cd Exam-Portal
+# Now we will need a .env file for storing email credentials
 create .env in the Exam-Portal directory
 Contents of .env file
 export EMAIL_HOST_PASSWORD=<PASSWORD_OF_EMAIL_ACCOUNT>
