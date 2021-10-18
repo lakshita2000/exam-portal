@@ -16,33 +16,18 @@ Exam Portal In Django
    # Contents of .env file
    # export EMAIL_HOST_PASSWORD=<PASSWORD_OF_EMAIL_ACCOUNT>
    # export EMAIL_HOST_USER=<EMAIL_ACCOUNT>
-   # export EMAIL_HOST=<SMTP>
-# export DEFAULT_FROM_EMAIL=<EMAIL_ACCOUNT>
-If on Windows
-# Create a env.bat file with following contents
-set EMAIL_HOST_PASSWORD=<PASSWORD_OF_EMAIL_ACCOUNT>
-set EMAIL_HOST_USER=<EMAIL_ACCOUNT>
-set EMAIL_HOST=<SMTP>
-set DEFAULT_FROM_EMAIL=<EMAIL_ACCOUNT>
+   # export EMAIL_HOST
 After creating env file, run following commands:-
-#  pip install pipenv
-pip install django[argon2]
-pipenv shell
-pipenv install
-Now if on linux run in cmd
-source .env
-If on windows
-env.bat
-After running commands as per OS run:
-cd Exam
-python manage.py migrate
-python manage.py makemigrations
-python manage.py migrate
+
+# cd Exam
+# python manage.py migrate
+# python manage.py makemigrations
+# python manage.py migrate
 Once done with that create a superuser account:
-python manage.py createsuperuser
+# python manage.py createsuperuser
 Once superuser account is created we can run the website
-python manage.py runserver
-If there are no errors website will be running on http://127.0.0.1:8000/ (default)
+# python manage.py runserver
+# If there are no errors website will be running on http://127.0.0.1:8000/ (default)
 For creating accounts for professor's we will need a group called Professor
 Go to http://127.0.0.1:8000/admin/auth/group/add/
 Login with superuser account
